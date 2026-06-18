@@ -2,7 +2,7 @@
 
 **Author:** Vladislava Kuprienko
 
-Data extraction and analytics pipeline for the [Chinook](https://github.com/lerocha/chinook-database) music store database.
+Data extraction and analytics pipeline for the Chinook music store database.
 
 Loads relational tables from SQLite, exports them to local storage, and runs pandas-based analytics on tracks, genres, and sales.
 
@@ -73,11 +73,7 @@ cd MusicService
 pip install pandas openpyxl
 ```
 
-### 3. Add the Chinook database
-
-Download `Chinook_Sqlite.sqlite` from the [Chinook database repo](https://github.com/lerocha/chinook-database) and place it in the project root as **`chinook.db`**.
-
-### 4. Create output folders
+### 3. Create output folders
 
 ```bash
 mkdir data results
